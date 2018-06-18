@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
   
-   "heroku-postbuild": "ng build --prod",
+    "postinstall": "grunt ng build --aot -prod",
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build --prod",
